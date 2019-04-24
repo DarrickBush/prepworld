@@ -1,25 +1,34 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en-US">
+<head>
+        <title>Howdy and Hello</title>
+     <meta name="Author" content="Darrick Bush" />
+    
+     <script type="text/javascript">
+         window.onload = function () {
+             //alert("Windows Loaded");
+             document.getElementById("Message1").innerHTML = "Hello Darrick";
+             document.getElementById("Message2").innerHTML = "Hello Diana";
+         }
+     </script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-    <h1>This is heading 1</h1>
-    <h2>This is heading 2</h2>
-    <h3>This is heading 3</h3>
+</head>
+<body id='body' bgcolor="yellow">
 
-    <p>This is a paragraph.</p>
-    <p>This is another paragraph.</p>
-
-    <a href="https://www.w3schools.com">This is a link</a>
-
-    <img src="images1.jpg" alt="images1.jpg" width="104" height="142">
-
-    <button>Click me</button>
-
-    <ul>
-        <li>Sequoia</li>
-        <li>CreekView</li>
-        <li>RiverRidge</li>
-    </ul>
-
+    <h2>OverView</h2>
+    <div id="Section1">
+        <h1><p id="Message1" class="message1">Hello World4/p></h1>
+        <h2><p id="Message2" class="message2">Hello World5</p></h2>
+        <h3><p id="Message3" class="message1">Hello World6</p></h3>
+    </div>
+    <h2>Outline</h2>
+    <div id="Section2">
+        <h4><p id="Message4" class="message2">Hello World</p></h4>
+        <h5><p id="Message5" class="message1">Hello World</p></h5>
+        <h6><p id="Message6" class="message2">Hello World</p></h6>
+    </div>
+    
 </body>
 </html>
